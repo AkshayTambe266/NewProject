@@ -1,0 +1,6 @@
+/workspace/src/main/java/com/documentmanager/service/DocumentService.java
+/workspace/src/main/java/com/documentmanager/controller/DocumentController.java
+/workspace/src/main/java/com/documentmanager/config/FileUploadConfig.java
+/workspace/src/main/java/com/documentmanager/model/Document.java
+/workspace/src/main/java/com/documentmanager/repository/DocumentRepository.java
+/workspace/src/main/java/com/documentmanager/DocumentUploadApplication.java
