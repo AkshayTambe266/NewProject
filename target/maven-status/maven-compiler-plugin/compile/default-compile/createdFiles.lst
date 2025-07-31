@@ -1,0 +1,6 @@
+com/documentmanager/controller/DocumentController.class
+com/documentmanager/repository/DocumentRepository.class
+com/documentmanager/service/DocumentService.class
+com/documentmanager/DocumentUploadApplication.class
+com/documentmanager/config/FileUploadConfig.class
+com/documentmanager/model/Document.class
