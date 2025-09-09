@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h4>Attendance Logs</h4>
+<a class="btn btn-outline-secondary btn-sm mb-2" href="/export.csv">Export CSV</a>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Roll No</th>
+      <th>Timestamp</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for r in logs %}
+    <tr>
+      <td>{{ r['id'] }}</td>
+      <td>{{ r['name'] }}</td>
+      <td>{{ r['roll_no'] }}</td>
+      <td>{{ r['timestamp'] }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
